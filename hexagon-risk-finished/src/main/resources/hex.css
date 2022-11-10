@@ -1,0 +1,54 @@
+.root {
+   -border-colour: black;
+}
+
+
+.hex-tile {
+  -fx-shape: "M 300,150 225,280 75,280 0,150 75,20 225,20 z";
+    -fx-border-color: -border-colour;
+    -fx-border-width: 2px;
+}
+
+.turn_counter {
+  -fx-shape: "M 300,150 225,280 75,280 0,150 75,20 225,20 z";
+    -fx-border-color: white;
+    -fx-border-width: 7px;
+      -fx-effect: dropshadow(gaussian, black, 5, 5, 0, 0)
+
+
+}
+.hex-tile:hover {
+  -border-colour: white;
+
+}
+
+
+.hex-tile:selected {
+  -border-colour: lightgreen;
+}
+
+
+.hex-tile:selected2 {
+  -border-colour: orange;
+}
+
+.game_phase_label{
+  -fx-font-size: 35;
+  -fx-text-fill: white;
+}
+
+.caption{
+  -fx-font-size: 16;
+  -fx-text-fill: white;
+}
+
+
+
+.menu_icon{
+    -fx-fill: white;
+}
+
+
+.menu_icon:hover{
+    -fx-fill: CORNFLOWERBLUE;
+}
